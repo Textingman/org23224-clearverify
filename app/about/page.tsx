@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Gamepad2, Trophy, Zap } from 'lucide-react';
+import { Eye, CheckCircle, Heart } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -13,14 +13,14 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style={{ backgroundColor: '#CFFAFE', color: '#0891B2' }}>
-              <Gamepad2 className="w-4 h-4" />
-              Play Games — Earn Aura — Level Up
+              <Eye className="w-4 h-4" />
+              Clear · Simple · Reliable
             </div>
             <h1 className="text-5xl font-extrabold mb-6" style={{ color: '#1F2937' }}>
-              Built for Gamers,<br />Powered by Quests
+              Clear & Simple Identity Verification<br /><span style={{ color: '#0891B2' }}>No Confusion, Just Results</span>
             </h1>
             <p className="text-xl max-w-3xl mx-auto" style={{ color: '#6B7280' }}>
-              Clear Verify is an online gaming platform where every game, quest, and challenge you complete earns you real aura points and rewards. We built this for players who want more than just fun — they want to level up.
+              Clear Verify makes identity verification straightforward and stress-free. We believe verification should be clear, not complicated — so we built a platform that guides you through every step with confidence.
             </p>
           </div>
         </div>
@@ -32,42 +32,42 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Why We Built This</h2>
             <p className="text-lg mb-4" style={{ color: '#6B7280' }}>
-              Gaming should reward you. We built Clear Verify because players deserve a platform where their time, skill, and dedication actually earn them something — aura points, prestige, and exclusive rewards.
+              Too many verification services are confusing and frustrating. Clear Verify was built to change that — making the process transparent, simple, and easy to understand.
             </p>
             <p className="text-lg mb-4" style={{ color: '#6B7280' }}>
-              Every quest you complete, every challenge you conquer, and every game you play adds to your aura. The more you play, the more you glow.
+              We believe everyone deserves a clear path to verifying their identity. No jargon, no hidden steps — just a clean, straightforward process from start to finish.
             </p>
             <p className="text-lg" style={{ color: '#6B7280' }}>
-              Join thousands of players already earning aura on Clear Verify. Your next quest is waiting.
+              Thousands of people trust Clear Verify because we make the complex simple. Your peace of mind is our priority.
             </p>
           </div>
           <div className="rounded-2xl p-8 border" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5E7EB' }}>
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#CFFAFE' }}>
-                  <Gamepad2 className="w-5 h-5" style={{ color: '#0891B2' }} />
+                  <Eye className="w-5 h-5" style={{ color: '#0891B2' }} />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Games & Quests</h3>
-                  <p style={{ color: '#6B7280' }}>Play a wide variety of online games and complete quests to earn aura points with every victory.</p>
+                  <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Crystal Clear Process</h3>
+                  <p style={{ color: '#6B7280' }}>Every step is explained clearly — no confusing jargon, no hidden requirements.</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#CFFAFE' }}>
-                  <Trophy className="w-5 h-5" style={{ color: '#0891B2' }} />
+                  <CheckCircle className="w-5 h-5" style={{ color: '#0891B2' }} />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Earn Real Rewards</h3>
-                  <p style={{ color: '#6B7280' }}>Your aura points unlock real rewards and prestige. The more challenges you complete, the more you earn.</p>
+                  <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Reliable Results</h3>
+                  <p style={{ color: '#6B7280' }}>Get accurate, dependable verification results you can count on every time.</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#CFFAFE' }}>
-                  <Zap className="w-5 h-5" style={{ color: '#0891B2' }} />
+                  <Heart className="w-5 h-5" style={{ color: '#0891B2' }} />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Level Up Fast</h3>
-                  <p style={{ color: '#6B7280' }}>Complete daily challenges and special quests to level up your aura faster than ever before.</p>
+                  <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Peace of Mind</h3>
+                  <p style={{ color: '#6B7280' }}>Know exactly what's happening at every stage. Transparency is at the core of everything we do.</p>
                 </div>
               </div>
             </div>
