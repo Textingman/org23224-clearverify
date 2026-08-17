@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
-            <p style={{ color: '#A5F3FC' }}>support@clearverify.com</p>
+            <p style={{ color: '#A5F3FC' }}>support@getgetclearverify.com</p>
             <p className="mt-2" style={{ color: '#A5F3FC' }}>8 The Green, Ste A, Dover, DE 19901</p>
             <p className="mt-2" style={{ color: '#A5F3FC' }}></p>
           </div>
